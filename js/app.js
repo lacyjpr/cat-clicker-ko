@@ -7,6 +7,17 @@ var ViewModel = function() {
 		this.clickCount(this.clickCount() + 1);
 	};
 
+	this.level = ko.computed(function() {
+		var clicks = this.clickCount();
+		if (clicks < 10) {
+			return 'newborn';
+		} else if (clicks >= 10 && clicks < 20){
+			return 'kitten';
+		} else {
+			return 'adult';
+		}
+	}, this);
+
 }
 
 ko.applyBindings(new ViewModel());
