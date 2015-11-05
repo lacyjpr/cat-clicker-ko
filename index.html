@@ -8,14 +8,14 @@
     <ul id="cat-list"></ul>
     <div id="cat">
 
-        <h2 data-bind="text: name"></h2>
-        <h3 data-bind="text: level"></h3>
-        <div data-bind="text: clickCount"></div>
+        <h2 data-bind="text: currentCat().name"></h2>
+        <h3 data-bind="text: currentCat().level"></h3>
+        <div data-bind="text: currentCat().clickCount"></div>
         <img src="" alt="cute cat" data-bind="click: incrementCounter,
-        attr: {src: imgSrc}">
+        attr: {src: currentCat().imgSrc}">
         <div>
             <h3>Nicknames:</h3>
-            <ul data-bind="foreach: nicknames">
+            <ul data-bind="foreach: currentCat().nicknames">
                 <li data-bind="text: $data"></li>
             </ul>
         </div>
