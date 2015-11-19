@@ -2,31 +2,31 @@ var initialCats = [
         {
             clickCount : 0,
             name : 'Muffy',
-            imgSrc : 'img/22252709_010df3379e_z.jpg',
+            imgSrc : 'img/cat1.jpg',
             nicknames: ['Muff', 'Muffster', 'Mufity-Muff']
         },
         {
             clickCount : 0,
             name : 'Buffy',
-            imgSrc : 'img/434164568_fea0ad4013_z.jpg',
+            imgSrc : 'img/cat2.jpg',
             nicknames: ['Buffy The Slayer', 'Buff', 'Buffster']
         },
         {
             clickCount : 0,
             name : 'Luffy',
-            imgSrc : 'img/1413379559_412a540d29_z.jpg',
+            imgSrc : 'img/cat3.jpg',
             nicknames: ['Luffy The Layer', 'Luff', 'Luffster']
         },
         {
             clickCount : 0,
             name : 'Huffy',
-            imgSrc : 'img/4154543904_6e2428c421_z.jpg',
+            imgSrc : 'img/cat4.jpg',
             nicknames: ['Huffy The Huffer', 'Huff', 'Huffster']
         },
         {
             clickCount : 0,
             name : 'Dusty',
-            imgSrc : 'img/9648464288_2516b35537_z.jpg',
+            imgSrc : 'img/cat5.jpg',
             nicknames: ['Dust', 'Dusteroni', 'Duster']
         }
     ]
